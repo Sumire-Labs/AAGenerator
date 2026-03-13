@@ -1,17 +1,17 @@
-# aa_generator
+# ASCII Art Generator (AAGenerator)
 
-A new Flutter project.
+テキストをASCIIアートに変換するWebアプリケーション
 
-## Getting Started
+## 機能
 
-This project is a starting point for a Flutter application.
+- **4種類のフォント** — Block / Slim / ANSI Shadow / Doom
+- **日本語対応** — ひらがな・カタカナのASCIIアート生成（Blockフォント）
+- **カラー設定** — プリセットカラー / カスタムカラーピッカー / グラデーション（水平・垂直・斜め）
+- **出力形式** — プレーンテキスト / Discord / ANSI Escape / コードスニペット（Bash・PowerShell・Python・JavaScript）
+- **Discord対応** — コードブロック + ANSIカラー付き出力で文字崩れなし
+- **レスポンシブUI** — 900px以上で2カラム、以下で1カラム表示
+- **Material 3 Expressive** — ダークテーマ、大きなborder-radius
 
-A few resources to get you started if this is your first Flutter project:
+## ライセンス
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+MIT License
